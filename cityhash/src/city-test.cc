@@ -1330,6 +1330,9 @@ int main(int argc, char** argv) {
   for ( ; i < kTestSize - 1; i++) {
     Test(testdata[i], i * i, i);
   }
+  
+  int a = 1234;
+  
   Test(testdata[i], 0, kDataSize);
   return errors > 0;
 }
