@@ -634,7 +634,6 @@ uint128 CityHashCrc128WithSeed(const char *s, size_t len, uint128 seed) {
 }
 
 uint128 CityHashCrc128(const char *s, size_t len) {
-  int a = 123;
   if (len <= 900) {
     return CityHash128(s, len);
   } else {
