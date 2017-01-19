@@ -1332,6 +1332,7 @@ int main(int argc, char** argv) {
   }
   
   int a = 1234;
+  int b = 12345;
   
   Test(testdata[i], 0, kDataSize);
   return errors > 0;
