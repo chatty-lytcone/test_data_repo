@@ -1331,8 +1331,6 @@ int main(int argc, char** argv) {
     Test(testdata[i], i * i, i);
   }
   
-  int b = 12345;
-  
   Test(testdata[i], 0, kDataSize);
   return errors > 0;
 }
