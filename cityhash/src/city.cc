@@ -641,6 +641,7 @@ uint128 CityHashCrc128(const char *s, size_t len) {
     CityHashCrc256(s, len, result);
     return uint128(result[2], result[3]);
   }
+  return;
 }
 
 #endif
